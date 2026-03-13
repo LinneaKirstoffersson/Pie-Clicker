@@ -63,14 +63,13 @@ body{
 }
 
 #pie-Clicker img{
-    background-image: url(pie.png);
+
     width:22vw;
     cursor: pointer;
     
 }
 #pie-Clicker img:hover{
-    background-image: url('pieShadow.png');
-    background-repeat: no-repeat;    
+  
                     
     width:22vw;
 
