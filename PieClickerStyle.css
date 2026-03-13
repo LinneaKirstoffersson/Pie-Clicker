@@ -2,12 +2,76 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
     background-color: rgba(137, 43, 226, 0.146) ;
+    background-image: url('background.png');     
+    background-repeat:repeat-y;                  
+    background-attachment: fixed;                  
+    background-size: cover;;
     text-align: center;
     padding: 4vw;
 }
 
-.MainContainer h1{
-    font-family:Cochin;
+#game h1{
+    font-family: Cochin;
     font-size: 45px;
     margin-bottom: 1vw;
+}
+
+#game{
+    width: 40vw;
+    margin: 0 auto;
+}
+
+#score{
+    display:flex;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(147, 65, 223, 0.772) ;
+    border-radius: 5px;
+    border: 6px dotted rgba(75, 24, 122, 0.53) ;
+
+
+
+}
+
+#score p{
+    margin: 0 auto;
+    font-family: cambria;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#points-per-click{
+    display:flex;
+    width:fit-content;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(147, 65, 223, 0.772) ;
+    border-radius: 5px;
+    border: 6px dotted rgba(75, 24, 122, 0.53) ;
+    border-top-style: hidden;
+    margin-top: 0;
+}
+
+#points-per-click p{
+    margin-top:0;
+    padding-top:1vw;
+}
+
+#pie-Clicker img{
+    background-image: url(pie.png);
+    width:22vw;
+    cursor: pointer;
+    
+}
+#pie-Clicker img:hover{
+    background-image: url('pieShadow.png');
+    background-repeat: no-repeat;    
+                    
+    width:22vw;
+
 }
