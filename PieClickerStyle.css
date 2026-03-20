@@ -2,7 +2,7 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
     background-color: rgba(137, 43, 226, 0.146) ;
-    background-image: url('background.png');     
+    background-image: url('background.png');     /**/
     background-repeat:repeat-y;                  
     background-attachment: fixed;                  
     background-size: cover;;
@@ -21,7 +21,7 @@ body{
     margin: 0 auto;
 }
 
-#score{
+#pies{
     display:flex;
     width: fit-content;
     margin: 0 auto;
@@ -36,7 +36,7 @@ body{
 
 }
 
-#score p{
+#pies p{
     margin: 0 auto;
     font-family: cambria;
     font-size: 30px;
@@ -44,7 +44,7 @@ body{
     margin-bottom: 5px;
 }
 
-#points-per-click{
+#pointsPerClick{      /*poäng per klicks storlek, bakgrund och border*/
     display:flex;
     width:fit-content;
     margin: 0 auto;
@@ -57,20 +57,21 @@ body{
     margin-top: 0;
 }
 
-#points-per-click p{
+#pointsPerClick p{        
     margin-top:0;
     padding-top:1vw;
 }
 
-#pie-Clicker img{
-
+#pie-Clicker img{ /*storlek av pie_clicker*/
     width:22vw;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
-#pie-Clicker img:hover{
-  
-                    
+#pie-Clicker img:hover{ /*hover skuggan för pie_clicker*/
     width:22vw;
 
+}
+
+#pie_Clicker img:active{    /*minskinin av storlek efter klickning på pajen*/
+    transform: scale(0.9) ;
+    
 }
