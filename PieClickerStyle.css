@@ -71,7 +71,7 @@ body{
 
 }
 
-#pie_Clicker img:active{    /*minskinin av storlek efter klickning på pajen*/
-    transform: scale(0.9) ;
+#pie-Clicker img:active{    /*minskinin av storlek efter klickning på pajen*/
+    transform: scale(0.95) ;
     
 }

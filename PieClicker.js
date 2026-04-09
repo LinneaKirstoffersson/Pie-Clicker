@@ -1,6 +1,6 @@
-//pie hovver skugga effekt
+//pie clicker html element
 const pie = document.querySelector("#pie-Clicker img");
-
+//pie hovver skugga effekt
 pie.addEventListener("mouseenter", () => {
     pie.src = "pieShadow.png";
 });
@@ -17,7 +17,6 @@ let pointsPerClick = 1;
 
 //html element
 const scoreElement = document.getElementById("score");
-const pie_ClickerElemnt = document.getElementById("pie-Clicker");
 const pointsPerClickElement = document.getElementById("points-per-click");
 
 //funtction display
@@ -32,3 +31,8 @@ function handelClick(){
     score = score + pointsPerClick
     updateDisplay();
 }
+
+//Event listener
+pie.addEventListener("click", handelClick);
+
+updateDisplay();
